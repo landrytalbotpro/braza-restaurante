@@ -4,13 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Braza · Cocina a la brasa</title>
+  <meta name="description" content="Braza, cocina a la brasa en Madrid, Calle Mayor 12. Reserva tu mesa y descubre el fuego que despierta el sabor.">
+  <link rel="canonical" href="https://landrytalbotpro.github.io/braza-restaurante/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Braza · Cocina a la brasa">
+  <meta property="og:description" content="Braza, cocina a la brasa en Madrid, Calle Mayor 12. Reserva tu mesa y descubre el fuego que despierta el sabor.">
+  <meta property="og:url" content="https://landrytalbotpro.github.io/braza-restaurante/">
+  <meta property="og:image" content="https://nuvorastudio.es/images/braza.jpg">
+  <meta property="og:locale" content="es_ES">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Braza · Cocina a la brasa">
+  <meta name="twitter:description" content="Braza, cocina a la brasa en Madrid, Calle Mayor 12. Reserva tu mesa y descubre el fuego que despierta el sabor.">
+  <meta name="twitter:image" content="https://nuvorastudio.es/images/braza.jpg">
     <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "Braza",
+  "url": "https://landrytalbotpro.github.io/braza-restaurante/",
+  "image": "https://nuvorastudio.es/images/braza.jpg",
+  "telephone": "+34675153535",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Calle Mayor 12",
+    "postalCode": "28013",
+    "addressLocality": "Madrid",
+    "addressCountry": "ES"
+  }
+}
+  </script>
 </head>
 <body>
 
     <nav class="navbar">
         <span class="logo">Braza</span>
-        <a href="https://wa.me/34TUNUMERO?text=Hola%2C%20quiero%20reservar%20mesa" class="nav-cta" target="_blank">Reservar</a>
+        <a href="https://wa.me/34675153535?text=Hola%2C%20quiero%20reservar%20mesa" class="nav-cta" target="_blank">Reservar</a>
     </nav>
 
     <header class="hero">
@@ -19,7 +48,7 @@
         <span class="badge">Cocina mediterránea · A la brasa</span>
         <h1>El fuego que<br><span class="gradient-text">despierta el sabor</span></h1>
         <p class="subtitulo">Ingredientes de temporada, brasa de leña y recetas que cuentan una historia.</p>
-        <button class="cta-btn" onclick="window.open('https://wa.me/34TUNUMERO?text=Hola%2C%20quiero%20reservar%20mesa', '_blank')">Reservar mesa →</button>
+        <button class="cta-btn" onclick="window.open('https://wa.me/34675153535?text=Hola%2C%20quiero%20reservar%20mesa', '_blank')">Reservar mesa →</button>
     </header>
 
     <section class="menu">
@@ -87,7 +116,7 @@
     <section class="cta-final">
         <h2>¿Listo para<br><span class="gradient-text">reservar tu mesa?</span></h2>
         <p>Escríbenos y te confirmamos disponibilidad al momento.</p>
-        <button class="cta-btn" onclick="window.open('https://wa.me/34TUNUMERO?text=Hola%2C%20quiero%20reservar%20mesa', '_blank')">Reservar mesa →</button>
+        <button class="cta-btn" onclick="window.open('https://wa.me/34675153535?text=Hola%2C%20quiero%20reservar%20mesa', '_blank')">Reservar mesa →</button>
     </section>
 
     <footer class="footer">
@@ -98,7 +127,29 @@
             <a href="#">Google Maps</a>
             <a href="mailto:hola@braza-restaurante.com">hola@braza-restaurante.com</a>
         </div>
-    </footer>
+    
+    <p style="text-align:center; font-size:11px; opacity:0.55; margin-top:16px;" class="nuvora-legal-link"><a href="privacidad.html" style="color:inherit;">Privacidad</a></p>
+</footer>
 
+
+  <!-- Sticky mobile CTA (ajouté — checklist Nuvora) -->
+  <style>
+  #nuvora-sticky-cta-bar {
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 9999;
+    display: none; justify-content: center; align-items: center;
+    padding: 12px 16px calc(12px + env(safe-area-inset-bottom, 0px));
+    background: rgba(20,20,20,0.96); backdrop-filter: blur(6px);
+  }
+  #nuvora-sticky-cta-bar a {
+    display: block; width: 100%; max-width: 480px; text-align: center;
+    background: #25D366; color: #fff; font-weight: 700; font-size: 15px;
+    padding: 13px 20px; border-radius: 999px; text-decoration: none;
+    font-family: system-ui, -apple-system, sans-serif;
+  }
+  @media (max-width: 780px) { #nuvora-sticky-cta-bar { display: flex; } }
+  </style>
+  <div id="nuvora-sticky-cta-bar">
+    <a href="https://wa.me/34675153535?text=Hola%2C%20quiero%20reservar%20mesa" target="_blank" rel="noopener">💬 Reservar mesa — Respuesta en 24h</a>
+  </div>
 </body>
 </html>
